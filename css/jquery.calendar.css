@@ -1,0 +1,14 @@
+.jq_calendar{width:279px;background:#fff;overflow:hidden;border:1px #d6d6d6 solid;border-bottom:none;-webkit-border-radius:2px;-moz-border-radius:2px;-o-border-radius:2px;}
+.jq_calendar .month span{padding:0 5px;color:#8B8B8B;font:normal 12px/24px "microsoft yahei", sans-serif;}
+.jq_calendar .month{height:24px;text-align:center;}
+.jq_calendar .month a.lm,
+.jq_calendar .month a.nm{color:#8B8B8B;font:normal 12px/24px "SimSun", sans-serif;text-decoration:none;}
+.jq_calendar .month a.lm:hover,
+.jq_calendar .month a.nm:hover{color:#ff1800;text-decoration:none;}
+.jq_calendar ul.week{background:#e6e6e6;list-style:none;width:280px;height:20px;}
+.jq_calendar ul.week li{float:left;width:40px;height:20px;text-align:center;font:normal 12px/20px "microsoft yahei", sans-serif;}
+.jq_calendar ul.week li.weekend{color:#fc8a02;}
+.jq_calendar ul.date{width:280px;height:auto;list-style:none;}
+.jq_calendar ul.date li{float:left;width:39px;height:20px;position:relative;text-align:center;border-right:1px #d6d6d6 solid;border-bottom:1px #d6d6d6 solid;font:normal 12px/20px "SimSun", sans-serif;}
+.jq_calendar ul.date li .signtip{width:16px;height:17px;left:0;bottom:0;position:absolute;background:url(images/index/icon.png) 0 0 no-repeat;}
+.jq_calendar ul.date li.notthis{color:#d5d5d5;}
